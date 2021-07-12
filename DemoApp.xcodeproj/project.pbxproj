@@ -7,6 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9AECD932695FD3300055254 /* FoodDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECD812695FD3000055254 /* FoodDeliveryApp.swift */; };
+		E9AECD942695FD3300055254 /* FoodDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECD812695FD3000055254 /* FoodDeliveryApp.swift */; };
+		E9AECD952695FD3300055254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECD822695FD3000055254 /* ContentView.swift */; };
+		E9AECD962695FD3300055254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECD822695FD3000055254 /* ContentView.swift */; };
+		E9AECD972695FD3300055254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AECD832695FD3300055254 /* Assets.xcassets */; };
+		E9AECD982695FD3300055254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AECD832695FD3300055254 /* Assets.xcassets */; };
+		E9AECDA02696E9C300055254 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECD9F2696E9C300055254 /* CategoryView.swift */; };
+		E9AECDA12696E9C300055254 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECD9F2696E9C300055254 /* CategoryView.swift */; };
+		E9AECDA42697202B00055254 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDA32697202B00055254 /* Food.swift */; };
+		E9AECDA52697202B00055254 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDA32697202B00055254 /* Food.swift */; };
+		E9AECDA72697209C00055254 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDA62697209C00055254 /* Helper.swift */; };
+		E9AECDA82697209C00055254 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDA62697209C00055254 /* Helper.swift */; };
+		E9AECDAA26972DF900055254 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDA926972DF900055254 /* FoodData.swift */; };
+		E9AECDAB26972DF900055254 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDA926972DF900055254 /* FoodData.swift */; };
+		E9AECDAD26972E4800055254 /* DetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDAC26972E4800055254 /* DetailRow.swift */; };
+		E9AECDAE26972E4800055254 /* DetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDAC26972E4800055254 /* DetailRow.swift */; };
+		E9AECDB02697351600055254 /* DetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDAF2697351600055254 /* DetailList.swift */; };
+		E9AECDB12697351600055254 /* DetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDAF2697351600055254 /* DetailList.swift */; };
+		E9AECDC826985D2800055254 /* RollTheDiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDB626985D2500055254 /* RollTheDiceApp.swift */; };
+		E9AECDC926985D2800055254 /* RollTheDiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDB626985D2500055254 /* RollTheDiceApp.swift */; };
+		E9AECDCA26985D2800055254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDB726985D2500055254 /* ContentView.swift */; };
+		E9AECDCB26985D2800055254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDB726985D2500055254 /* ContentView.swift */; };
+		E9AECDCC26985D2800055254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AECDB826985D2700055254 /* Assets.xcassets */; };
+		E9AECDCD26985D2800055254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AECDB826985D2700055254 /* Assets.xcassets */; };
+		E9AECDD52698794F00055254 /* RollButtonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDD42698794F00055254 /* RollButtonContent.swift */; };
+		E9AECDD62698794F00055254 /* RollButtonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDD42698794F00055254 /* RollButtonContent.swift */; };
+		E9AECDEA2698874800055254 /* LoginPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDD82698874800055254 /* LoginPageApp.swift */; };
+		E9AECDEB2698874800055254 /* LoginPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDD82698874800055254 /* LoginPageApp.swift */; };
+		E9AECDEC2698874800055254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDD92698874800055254 /* ContentView.swift */; };
+		E9AECDED2698874800055254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDD92698874800055254 /* ContentView.swift */; };
+		E9AECDEE2698874800055254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AECDDA2698874800055254 /* Assets.xcassets */; };
+		E9AECDEF2698874800055254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AECDDA2698874800055254 /* Assets.xcassets */; };
+		E9AECDF7269888D100055254 /* WelcomeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDF6269888D100055254 /* WelcomeText.swift */; };
+		E9AECDF8269888D100055254 /* WelcomeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDF6269888D100055254 /* WelcomeText.swift */; };
+		E9AECDFA2698898D00055254 /* UserImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDF92698898D00055254 /* UserImage.swift */; };
+		E9AECDFB2698898D00055254 /* UserImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDF92698898D00055254 /* UserImage.swift */; };
+		E9AECDFD26988C8800055254 /* LoginButtonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDFC26988C8800055254 /* LoginButtonContent.swift */; };
+		E9AECDFE26988C8800055254 /* LoginButtonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDFC26988C8800055254 /* LoginButtonContent.swift */; };
+		E9AECE0026988DB700055254 /* UsernameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDFF26988DB700055254 /* UsernameTextField.swift */; };
+		E9AECE0126988DB700055254 /* UsernameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECDFF26988DB700055254 /* UsernameTextField.swift */; };
+		E9AECE03269892CA00055254 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECE02269892CA00055254 /* PasswordSecureField.swift */; };
+		E9AECE04269892CA00055254 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECE02269892CA00055254 /* PasswordSecureField.swift */; };
+		E9AECE06269B14A800055254 /* OrderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECE05269B14A700055254 /* OrderForm.swift */; };
+		E9AECE07269B14A800055254 /* OrderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECE05269B14A700055254 /* OrderForm.swift */; };
 		E9B898E82694596D00DBC9FD /* DemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B898D52694596B00DBC9FD /* DemoAppApp.swift */; };
 		E9B898E92694596D00DBC9FD /* DemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B898D52694596B00DBC9FD /* DemoAppApp.swift */; };
 		E9B898EA2694596D00DBC9FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B898D62694596B00DBC9FD /* ContentView.swift */; };
@@ -16,6 +60,43 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9AECD812695FD3000055254 /* FoodDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryApp.swift; sourceTree = "<group>"; };
+		E9AECD822695FD3000055254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9AECD832695FD3300055254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9AECD882695FD3300055254 /* FoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AECD8A2695FD3300055254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AECD8F2695FD3300055254 /* FoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AECD912695FD3300055254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AECD922695FD3300055254 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E9AECD9F2696E9C300055254 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		E9AECDA32697202B00055254 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		E9AECDA62697209C00055254 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E9AECDA926972DF900055254 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		E9AECDAC26972E4800055254 /* DetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRow.swift; sourceTree = "<group>"; };
+		E9AECDAF2697351600055254 /* DetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailList.swift; sourceTree = "<group>"; };
+		E9AECDB626985D2500055254 /* RollTheDiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDiceApp.swift; sourceTree = "<group>"; };
+		E9AECDB726985D2500055254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9AECDB826985D2700055254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9AECDBD26985D2700055254 /* RollTheDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollTheDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AECDBF26985D2700055254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AECDC426985D2800055254 /* RollTheDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollTheDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AECDC626985D2800055254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AECDC726985D2800055254 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E9AECDD42698794F00055254 /* RollButtonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollButtonContent.swift; sourceTree = "<group>"; };
+		E9AECDD82698874800055254 /* LoginPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageApp.swift; sourceTree = "<group>"; };
+		E9AECDD92698874800055254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9AECDDA2698874800055254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9AECDDF2698874800055254 /* LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AECDE12698874800055254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AECDE62698874800055254 /* LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AECDE82698874800055254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AECDE92698874800055254 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E9AECDF6269888D100055254 /* WelcomeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeText.swift; sourceTree = "<group>"; };
+		E9AECDF92698898D00055254 /* UserImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImage.swift; sourceTree = "<group>"; };
+		E9AECDFC26988C8800055254 /* LoginButtonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonContent.swift; sourceTree = "<group>"; };
+		E9AECDFF26988DB700055254 /* UsernameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameTextField.swift; sourceTree = "<group>"; };
+		E9AECE02269892CA00055254 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
+		E9AECE05269B14A700055254 /* OrderForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderForm.swift; sourceTree = "<group>"; };
 		E9B898D52694596B00DBC9FD /* DemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppApp.swift; sourceTree = "<group>"; };
 		E9B898D62694596B00DBC9FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9B898D72694596D00DBC9FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,6 +108,48 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E9AECD852695FD3300055254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECD8C2695FD3300055254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDBA26985D2700055254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDC126985D2800055254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDDC2698874800055254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDE32698874800055254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9B898D92694596D00DBC9FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,12 +167,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9AECD802695FD3000055254 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E9AECD812695FD3000055254 /* FoodDeliveryApp.swift */,
+				E9AECD822695FD3000055254 /* ContentView.swift */,
+				E9AECDA32697202B00055254 /* Food.swift */,
+				E9AECDA926972DF900055254 /* FoodData.swift */,
+				E9AECDA62697209C00055254 /* Helper.swift */,
+				E9AECDA22696EA3200055254 /* Chunks */,
+				E9AECD832695FD3300055254 /* Assets.xcassets */,
+			);
+			name = Shared;
+			path = FoodAppShared;
+			sourceTree = "<group>";
+		};
+		E9AECD892695FD3300055254 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9AECD8A2695FD3300055254 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E9AECD902695FD3300055254 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9AECD912695FD3300055254 /* Info.plist */,
+				E9AECD922695FD3300055254 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E9AECDA22696EA3200055254 /* Chunks */ = {
+			isa = PBXGroup;
+			children = (
+				E9AECD9F2696E9C300055254 /* CategoryView.swift */,
+				E9AECDAC26972E4800055254 /* DetailRow.swift */,
+				E9AECDAF2697351600055254 /* DetailList.swift */,
+				E9AECE05269B14A700055254 /* OrderForm.swift */,
+			);
+			path = Chunks;
+			sourceTree = "<group>";
+		};
+		E9AECDB526985D2500055254 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E9AECDB626985D2500055254 /* RollTheDiceApp.swift */,
+				E9AECDB726985D2500055254 /* ContentView.swift */,
+				E9AECDD42698794F00055254 /* RollButtonContent.swift */,
+				E9AECDB826985D2700055254 /* Assets.xcassets */,
+			);
+			name = Shared;
+			path = DiceShared;
+			sourceTree = "<group>";
+		};
+		E9AECDBE26985D2700055254 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9AECDBF26985D2700055254 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E9AECDC526985D2800055254 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9AECDC626985D2800055254 /* Info.plist */,
+				E9AECDC726985D2800055254 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E9AECDD72698874800055254 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E9AECDD82698874800055254 /* LoginPageApp.swift */,
+				E9AECDD92698874800055254 /* ContentView.swift */,
+				E9AECDFF26988DB700055254 /* UsernameTextField.swift */,
+				E9AECE02269892CA00055254 /* PasswordSecureField.swift */,
+				E9AECDFC26988C8800055254 /* LoginButtonContent.swift */,
+				E9AECDF92698898D00055254 /* UserImage.swift */,
+				E9AECDF6269888D100055254 /* WelcomeText.swift */,
+				E9AECDDA2698874800055254 /* Assets.xcassets */,
+			);
+			name = Shared;
+			path = LoginPageShared;
+			sourceTree = "<group>";
+		};
+		E9AECDE02698874800055254 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9AECDE12698874800055254 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E9AECDE72698874800055254 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9AECDE82698874800055254 /* Info.plist */,
+				E9AECDE92698874800055254 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
 		E9B898CF2694596B00DBC9FD = {
 			isa = PBXGroup;
 			children = (
 				E9B898D42694596B00DBC9FD /* Shared */,
 				E9B898DE2694596D00DBC9FD /* iOS */,
 				E9B898E52694596D00DBC9FD /* macOS */,
+				E9AECD802695FD3000055254 /* Shared */,
+				E9AECD892695FD3300055254 /* iOS */,
+				E9AECD902695FD3300055254 /* macOS */,
+				E9AECDB526985D2500055254 /* Shared */,
+				E9AECDBE26985D2700055254 /* iOS */,
+				E9AECDC526985D2800055254 /* macOS */,
+				E9AECDD72698874800055254 /* Shared */,
+				E9AECDE02698874800055254 /* iOS */,
+				E9AECDE72698874800055254 /* macOS */,
 				E9B898DD2694596D00DBC9FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +298,8 @@
 				E9B898D62694596B00DBC9FD /* ContentView.swift */,
 				E9B898D72694596D00DBC9FD /* Assets.xcassets */,
 			);
-			path = Shared;
+			name = Shared;
+			path = DemoShared;
 			sourceTree = "<group>";
 		};
 		E9B898DD2694596D00DBC9FD /* Products */ = {
@@ -69,6 +307,12 @@
 			children = (
 				E9B898DC2694596D00DBC9FD /* DemoApp.app */,
 				E9B898E42694596D00DBC9FD /* DemoApp.app */,
+				E9AECD882695FD3300055254 /* FoodDelivery.app */,
+				E9AECD8F2695FD3300055254 /* FoodDelivery.app */,
+				E9AECDBD26985D2700055254 /* RollTheDice.app */,
+				E9AECDC426985D2800055254 /* RollTheDice.app */,
+				E9AECDDF2698874800055254 /* LoginPage.app */,
+				E9AECDE62698874800055254 /* LoginPage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +337,108 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E9AECD872695FD3300055254 /* FoodDelivery (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AECD9D2695FD3300055254 /* Build configuration list for PBXNativeTarget "FoodDelivery (iOS)" */;
+			buildPhases = (
+				E9AECD842695FD3300055254 /* Sources */,
+				E9AECD852695FD3300055254 /* Frameworks */,
+				E9AECD862695FD3300055254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FoodDelivery (iOS)";
+			productName = "FoodDelivery (iOS)";
+			productReference = E9AECD882695FD3300055254 /* FoodDelivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9AECD8E2695FD3300055254 /* FoodDelivery (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AECD9E2695FD3300055254 /* Build configuration list for PBXNativeTarget "FoodDelivery (macOS)" */;
+			buildPhases = (
+				E9AECD8B2695FD3300055254 /* Sources */,
+				E9AECD8C2695FD3300055254 /* Frameworks */,
+				E9AECD8D2695FD3300055254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FoodDelivery (macOS)";
+			productName = "FoodDelivery (macOS)";
+			productReference = E9AECD8F2695FD3300055254 /* FoodDelivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9AECDBC26985D2700055254 /* RollTheDice (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AECDCE26985D2800055254 /* Build configuration list for PBXNativeTarget "RollTheDice (iOS)" */;
+			buildPhases = (
+				E9AECDB926985D2700055254 /* Sources */,
+				E9AECDBA26985D2700055254 /* Frameworks */,
+				E9AECDBB26985D2700055254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RollTheDice (iOS)";
+			productName = "RollTheDice (iOS)";
+			productReference = E9AECDBD26985D2700055254 /* RollTheDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9AECDC326985D2800055254 /* RollTheDice (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AECDD126985D2800055254 /* Build configuration list for PBXNativeTarget "RollTheDice (macOS)" */;
+			buildPhases = (
+				E9AECDC026985D2800055254 /* Sources */,
+				E9AECDC126985D2800055254 /* Frameworks */,
+				E9AECDC226985D2800055254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RollTheDice (macOS)";
+			productName = "RollTheDice (macOS)";
+			productReference = E9AECDC426985D2800055254 /* RollTheDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9AECDDE2698874800055254 /* LoginPage (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AECDF02698874800055254 /* Build configuration list for PBXNativeTarget "LoginPage (iOS)" */;
+			buildPhases = (
+				E9AECDDB2698874800055254 /* Sources */,
+				E9AECDDC2698874800055254 /* Frameworks */,
+				E9AECDDD2698874800055254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LoginPage (iOS)";
+			productName = "LoginPage (iOS)";
+			productReference = E9AECDDF2698874800055254 /* LoginPage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9AECDE52698874800055254 /* LoginPage (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AECDF32698874800055254 /* Build configuration list for PBXNativeTarget "LoginPage (macOS)" */;
+			buildPhases = (
+				E9AECDE22698874800055254 /* Sources */,
+				E9AECDE32698874800055254 /* Frameworks */,
+				E9AECDE42698874800055254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LoginPage (macOS)";
+			productName = "LoginPage (macOS)";
+			productReference = E9AECDE62698874800055254 /* LoginPage.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E9B898DB2694596D00DBC9FD /* DemoApp (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9B898F02694596D00DBC9FD /* Build configuration list for PBXNativeTarget "DemoApp (iOS)" */;
@@ -136,6 +482,24 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					E9AECD872695FD3300055254 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E9AECD8E2695FD3300055254 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E9AECDBC26985D2700055254 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E9AECDC326985D2800055254 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E9AECDDE2698874800055254 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E9AECDE52698874800055254 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					E9B898DB2694596D00DBC9FD = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -159,11 +523,65 @@
 			targets = (
 				E9B898DB2694596D00DBC9FD /* DemoApp (iOS) */,
 				E9B898E32694596D00DBC9FD /* DemoApp (macOS) */,
+				E9AECD872695FD3300055254 /* FoodDelivery (iOS) */,
+				E9AECD8E2695FD3300055254 /* FoodDelivery (macOS) */,
+				E9AECDBC26985D2700055254 /* RollTheDice (iOS) */,
+				E9AECDC326985D2800055254 /* RollTheDice (macOS) */,
+				E9AECDDE2698874800055254 /* LoginPage (iOS) */,
+				E9AECDE52698874800055254 /* LoginPage (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E9AECD862695FD3300055254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECD972695FD3300055254 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECD8D2695FD3300055254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECD982695FD3300055254 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDBB26985D2700055254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECDCC26985D2800055254 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDC226985D2800055254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECDCD26985D2800055254 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDDD2698874800055254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECDEE2698874800055254 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDE42698874800055254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECDEF2698874800055254 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9B898DA2694596D00DBC9FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +601,86 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E9AECD842695FD3300055254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECD952695FD3300055254 /* ContentView.swift in Sources */,
+				E9AECDA42697202B00055254 /* Food.swift in Sources */,
+				E9AECDB02697351600055254 /* DetailList.swift in Sources */,
+				E9AECE06269B14A800055254 /* OrderForm.swift in Sources */,
+				E9AECDA72697209C00055254 /* Helper.swift in Sources */,
+				E9AECDAD26972E4800055254 /* DetailRow.swift in Sources */,
+				E9AECDAA26972DF900055254 /* FoodData.swift in Sources */,
+				E9AECD932695FD3300055254 /* FoodDeliveryApp.swift in Sources */,
+				E9AECDA02696E9C300055254 /* CategoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECD8B2695FD3300055254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECD962695FD3300055254 /* ContentView.swift in Sources */,
+				E9AECDA52697202B00055254 /* Food.swift in Sources */,
+				E9AECDB12697351600055254 /* DetailList.swift in Sources */,
+				E9AECE07269B14A800055254 /* OrderForm.swift in Sources */,
+				E9AECDA82697209C00055254 /* Helper.swift in Sources */,
+				E9AECDAE26972E4800055254 /* DetailRow.swift in Sources */,
+				E9AECDAB26972DF900055254 /* FoodData.swift in Sources */,
+				E9AECD942695FD3300055254 /* FoodDeliveryApp.swift in Sources */,
+				E9AECDA12696E9C300055254 /* CategoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDB926985D2700055254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECDCA26985D2800055254 /* ContentView.swift in Sources */,
+				E9AECDD52698794F00055254 /* RollButtonContent.swift in Sources */,
+				E9AECDC826985D2800055254 /* RollTheDiceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDC026985D2800055254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECDCB26985D2800055254 /* ContentView.swift in Sources */,
+				E9AECDD62698794F00055254 /* RollButtonContent.swift in Sources */,
+				E9AECDC926985D2800055254 /* RollTheDiceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDDB2698874800055254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECDFA2698898D00055254 /* UserImage.swift in Sources */,
+				E9AECDEC2698874800055254 /* ContentView.swift in Sources */,
+				E9AECDF7269888D100055254 /* WelcomeText.swift in Sources */,
+				E9AECDFD26988C8800055254 /* LoginButtonContent.swift in Sources */,
+				E9AECDEA2698874800055254 /* LoginPageApp.swift in Sources */,
+				E9AECE0026988DB700055254 /* UsernameTextField.swift in Sources */,
+				E9AECE03269892CA00055254 /* PasswordSecureField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AECDE22698874800055254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AECDFB2698898D00055254 /* UserImage.swift in Sources */,
+				E9AECDED2698874800055254 /* ContentView.swift in Sources */,
+				E9AECDF8269888D100055254 /* WelcomeText.swift in Sources */,
+				E9AECDFE26988C8800055254 /* LoginButtonContent.swift in Sources */,
+				E9AECDEB2698874800055254 /* LoginPageApp.swift in Sources */,
+				E9AECE0126988DB700055254 /* UsernameTextField.swift in Sources */,
+				E9AECE04269892CA00055254 /* PasswordSecureField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9B898D82694596D00DBC9FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,6 +702,285 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E9AECD992695FD3300055254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.FoodDelivery;
+				PRODUCT_NAME = FoodDelivery;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9AECD9A2695FD3300055254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.FoodDelivery;
+				PRODUCT_NAME = FoodDelivery;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9AECD9B2695FD3300055254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.FoodDelivery;
+				PRODUCT_NAME = FoodDelivery;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9AECD9C2695FD3300055254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.FoodDelivery;
+				PRODUCT_NAME = FoodDelivery;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9AECDCF26985D2800055254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.RollTheDice;
+				PRODUCT_NAME = RollTheDice;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9AECDD026985D2800055254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.RollTheDice;
+				PRODUCT_NAME = RollTheDice;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9AECDD226985D2800055254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.RollTheDice;
+				PRODUCT_NAME = RollTheDice;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9AECDD326985D2800055254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.RollTheDice;
+				PRODUCT_NAME = RollTheDice;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9AECDF12698874800055254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.LoginPage;
+				PRODUCT_NAME = LoginPage;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9AECDF22698874800055254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.LoginPage;
+				PRODUCT_NAME = LoginPage;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9AECDF42698874800055254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.LoginPage;
+				PRODUCT_NAME = LoginPage;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9AECDF52698874800055254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.LoginPage;
+				PRODUCT_NAME = LoginPage;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E9B898EE2694596D00DBC9FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -411,6 +1188,60 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E9AECD9D2695FD3300055254 /* Build configuration list for PBXNativeTarget "FoodDelivery (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AECD992695FD3300055254 /* Debug */,
+				E9AECD9A2695FD3300055254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AECD9E2695FD3300055254 /* Build configuration list for PBXNativeTarget "FoodDelivery (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AECD9B2695FD3300055254 /* Debug */,
+				E9AECD9C2695FD3300055254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AECDCE26985D2800055254 /* Build configuration list for PBXNativeTarget "RollTheDice (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AECDCF26985D2800055254 /* Debug */,
+				E9AECDD026985D2800055254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AECDD126985D2800055254 /* Build configuration list for PBXNativeTarget "RollTheDice (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AECDD226985D2800055254 /* Debug */,
+				E9AECDD326985D2800055254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AECDF02698874800055254 /* Build configuration list for PBXNativeTarget "LoginPage (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AECDF12698874800055254 /* Debug */,
+				E9AECDF22698874800055254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AECDF32698874800055254 /* Build configuration list for PBXNativeTarget "LoginPage (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AECDF42698874800055254 /* Debug */,
+				E9AECDF52698874800055254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E9B898D32694596B00DBC9FD /* Build configuration list for PBXProject "DemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
