@@ -16,34 +16,55 @@ struct OrderForm: View {
     @State var orderAmount = 1
     
     /// text field
-    
+    @State var firstName = ""
     @State var lastName = ""
     @State var street = ""
     @State var city = ""
     @State var zip = ""
     
+    // for slider
+    @State var userFeedback = 0.0
+
     var body: some View {
         Form{
-            Toggle(isOn: $specialRequest) {
-                Image(systemName: specialRequest ? "heart.fill" : "heart")
-                    .foregroundColor(.orange)
-                Text("Any special requests?")
-            }
-            .toggleStyle(SwitchToggleStyle(tint: .orange))
-            // Use your Toggle Style for your Toggle view
-            //            .toggleStyle(DefaultToggle(onColor: .blue, offColor: .white))
-            //            .toggleStyle(MyToggleStyle())
-            //            .toggleStyle(CheckboxStyle())
-            if specialRequest {
-                TextField("Enter your request", text: $specialRequestInput)
+            Section{
+                Toggle(isOn: $specialRequest) {
+                    Image(systemName: specialRequest ? "heart.fill" : "heart")
+                        .foregroundColor(.orange)
+                    Text("Any special requests?")
+                }
+                .toggleStyle(SwitchToggleStyle(tint: .orange))
+                // Use your Toggle Style for your Toggle view
+                //            .toggleStyle(DefaultToggle(onColor: .blue, offColor: .white))
+                //            .toggleStyle(MyToggleStyle())
+                //            .toggleStyle(CheckboxStyle())
+                if specialRequest {
+                    TextField("Enter your request", text: $specialRequestInput)
+                }
+                
+                
+                Stepper(value: $orderAmount, in: 1...10) {
+                    Text("Quantity: \(orderAmount)")
+                }
             }
             
-            
-            Stepper(value: $orderAmount, in: 1...10) {
-                Text("Quantity: \(orderAmount)")
+            Section {
+                TextField("First name", text: $firstName)
+                TextField("Last name", text: $lastName)
+                TextField("Street", text: $street)
+                TextField("City", text: $city)
+                TextField("ZIP code", text: $zip)
             }
-            
+            Section {
+                HStack {
+                    Image(systemName: "hand.thumbsdown")
+                    Slider(value: $userFeedback, in: 0.0...10.0)
+                    Image(systemName: "hand.thumbsup")
+                }
+                Text("your feedback: \(userFeedback)")
+            }
         }
+        .navigationTitle("🛠")
     }
 }
 
