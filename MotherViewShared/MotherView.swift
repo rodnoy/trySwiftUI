@@ -17,6 +17,7 @@ struct MotherView: View {
             ContentViewA()
         case .page2:
             ContentViewB()
+                .transition(.scale)
         }
     }
 }
