@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E94D6AAF269C733D005F3B79 /* MotherViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6A9D269C733C005F3B79 /* MotherViewApp.swift */; };
+		E94D6AB0269C733D005F3B79 /* MotherViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6A9D269C733C005F3B79 /* MotherViewApp.swift */; };
+		E94D6AB1269C733D005F3B79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6A9E269C733C005F3B79 /* ContentView.swift */; };
+		E94D6AB2269C733D005F3B79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6A9E269C733C005F3B79 /* ContentView.swift */; };
+		E94D6AB3269C733D005F3B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94D6A9F269C733C005F3B79 /* Assets.xcassets */; };
+		E94D6AB4269C733D005F3B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94D6A9F269C733C005F3B79 /* Assets.xcassets */; };
+		E94D6ABC269C744E005F3B79 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6ABB269C744E005F3B79 /* MotherView.swift */; };
+		E94D6ABD269C744E005F3B79 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6ABB269C744E005F3B79 /* MotherView.swift */; };
+		E94D6ABF269C7484005F3B79 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6ABE269C7484005F3B79 /* Helper.swift */; };
+		E94D6AC0269C7484005F3B79 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6ABE269C7484005F3B79 /* Helper.swift */; };
+		E94D6AC2269C752F005F3B79 /* ContentViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6AC1269C752F005F3B79 /* ContentViewA.swift */; };
+		E94D6AC3269C752F005F3B79 /* ContentViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6AC1269C752F005F3B79 /* ContentViewA.swift */; };
+		E94D6AC5269C7C69005F3B79 /* ContentViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6AC4269C7C69005F3B79 /* ContentViewB.swift */; };
+		E94D6AC6269C7C69005F3B79 /* ContentViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6AC4269C7C69005F3B79 /* ContentViewB.swift */; };
+		E94D6AC8269C85E3005F3B79 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6AC7269C85E3005F3B79 /* ViewRouter.swift */; };
+		E94D6AC9269C85E3005F3B79 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D6AC7269C85E3005F3B79 /* ViewRouter.swift */; };
 		E9AECD932695FD3300055254 /* FoodDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECD812695FD3000055254 /* FoodDeliveryApp.swift */; };
 		E9AECD942695FD3300055254 /* FoodDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECD812695FD3000055254 /* FoodDeliveryApp.swift */; };
 		E9AECD952695FD3300055254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AECD822695FD3000055254 /* ContentView.swift */; };
@@ -60,6 +76,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E94D6A9D269C733C005F3B79 /* MotherViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherViewApp.swift; sourceTree = "<group>"; };
+		E94D6A9E269C733C005F3B79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E94D6A9F269C733C005F3B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E94D6AA4269C733C005F3B79 /* MotherView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotherView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94D6AA6269C733C005F3B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94D6AAB269C733C005F3B79 /* MotherView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotherView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94D6AAD269C733D005F3B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94D6AAE269C733D005F3B79 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E94D6ABB269C744E005F3B79 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		E94D6ABE269C7484005F3B79 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E94D6AC1269C752F005F3B79 /* ContentViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewA.swift; sourceTree = "<group>"; };
+		E94D6AC4269C7C69005F3B79 /* ContentViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewB.swift; sourceTree = "<group>"; };
+		E94D6AC7269C85E3005F3B79 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		E9AECD812695FD3000055254 /* FoodDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryApp.swift; sourceTree = "<group>"; };
 		E9AECD822695FD3000055254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9AECD832695FD3300055254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,6 +137,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E94D6AA1269C733C005F3B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94D6AA8269C733C005F3B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9AECD852695FD3300055254 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,6 +210,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E94D6A9C269C733C005F3B79 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E94D6A9D269C733C005F3B79 /* MotherViewApp.swift */,
+				E94D6ABB269C744E005F3B79 /* MotherView.swift */,
+				E94D6AC7269C85E3005F3B79 /* ViewRouter.swift */,
+				E94D6AC1269C752F005F3B79 /* ContentViewA.swift */,
+				E94D6AC4269C7C69005F3B79 /* ContentViewB.swift */,
+				E94D6ABE269C7484005F3B79 /* Helper.swift */,
+				E94D6A9E269C733C005F3B79 /* ContentView.swift */,
+				E94D6A9F269C733C005F3B79 /* Assets.xcassets */,
+			);
+			name = Shared;
+			path = MotherViewShared;
+			sourceTree = "<group>";
+		};
+		E94D6AA5269C733C005F3B79 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E94D6AA6269C733C005F3B79 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E94D6AAC269C733D005F3B79 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E94D6AAD269C733D005F3B79 /* Info.plist */,
+				E94D6AAE269C733D005F3B79 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
 		E9AECD802695FD3000055254 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +363,9 @@
 				E9AECDD72698874800055254 /* Shared */,
 				E9AECDE02698874800055254 /* iOS */,
 				E9AECDE72698874800055254 /* macOS */,
+				E94D6A9C269C733C005F3B79 /* Shared */,
+				E94D6AA5269C733C005F3B79 /* iOS */,
+				E94D6AAC269C733D005F3B79 /* macOS */,
 				E9B898DD2694596D00DBC9FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -313,6 +392,8 @@
 				E9AECDC426985D2800055254 /* RollTheDice.app */,
 				E9AECDDF2698874800055254 /* LoginPage.app */,
 				E9AECDE62698874800055254 /* LoginPage.app */,
+				E94D6AA4269C733C005F3B79 /* MotherView.app */,
+				E94D6AAB269C733C005F3B79 /* MotherView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,6 +418,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E94D6AA3269C733C005F3B79 /* MotherView (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94D6AB9269C733D005F3B79 /* Build configuration list for PBXNativeTarget "MotherView (iOS)" */;
+			buildPhases = (
+				E94D6AA0269C733C005F3B79 /* Sources */,
+				E94D6AA1269C733C005F3B79 /* Frameworks */,
+				E94D6AA2269C733C005F3B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MotherView (iOS)";
+			productName = "MotherView (iOS)";
+			productReference = E94D6AA4269C733C005F3B79 /* MotherView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E94D6AAA269C733C005F3B79 /* MotherView (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94D6ABA269C733D005F3B79 /* Build configuration list for PBXNativeTarget "MotherView (macOS)" */;
+			buildPhases = (
+				E94D6AA7269C733C005F3B79 /* Sources */,
+				E94D6AA8269C733C005F3B79 /* Frameworks */,
+				E94D6AA9269C733C005F3B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MotherView (macOS)";
+			productName = "MotherView (macOS)";
+			productReference = E94D6AAB269C733C005F3B79 /* MotherView.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E9AECD872695FD3300055254 /* FoodDelivery (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9AECD9D2695FD3300055254 /* Build configuration list for PBXNativeTarget "FoodDelivery (iOS)" */;
@@ -482,6 +597,12 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					E94D6AA3269C733C005F3B79 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E94D6AAA269C733C005F3B79 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					E9AECD872695FD3300055254 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -529,11 +650,29 @@
 				E9AECDC326985D2800055254 /* RollTheDice (macOS) */,
 				E9AECDDE2698874800055254 /* LoginPage (iOS) */,
 				E9AECDE52698874800055254 /* LoginPage (macOS) */,
+				E94D6AA3269C733C005F3B79 /* MotherView (iOS) */,
+				E94D6AAA269C733C005F3B79 /* MotherView (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E94D6AA2269C733C005F3B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94D6AB3269C733D005F3B79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94D6AA9269C733C005F3B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94D6AB4269C733D005F3B79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9AECD862695FD3300055254 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -601,6 +740,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E94D6AA0269C733C005F3B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94D6AB1269C733D005F3B79 /* ContentView.swift in Sources */,
+				E94D6AC8269C85E3005F3B79 /* ViewRouter.swift in Sources */,
+				E94D6ABC269C744E005F3B79 /* MotherView.swift in Sources */,
+				E94D6AC2269C752F005F3B79 /* ContentViewA.swift in Sources */,
+				E94D6AAF269C733D005F3B79 /* MotherViewApp.swift in Sources */,
+				E94D6ABF269C7484005F3B79 /* Helper.swift in Sources */,
+				E94D6AC5269C7C69005F3B79 /* ContentViewB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94D6AA7269C733C005F3B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94D6AB2269C733D005F3B79 /* ContentView.swift in Sources */,
+				E94D6AC9269C85E3005F3B79 /* ViewRouter.swift in Sources */,
+				E94D6ABD269C744E005F3B79 /* MotherView.swift in Sources */,
+				E94D6AC3269C752F005F3B79 /* ContentViewA.swift in Sources */,
+				E94D6AB0269C733D005F3B79 /* MotherViewApp.swift in Sources */,
+				E94D6AC0269C7484005F3B79 /* Helper.swift in Sources */,
+				E94D6AC6269C7C69005F3B79 /* ContentViewB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9AECD842695FD3300055254 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -702,6 +869,99 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E94D6AB5269C733D005F3B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.MotherView;
+				PRODUCT_NAME = MotherView;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E94D6AB6269C733D005F3B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.MotherView;
+				PRODUCT_NAME = MotherView;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E94D6AB7269C733D005F3B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.MotherView;
+				PRODUCT_NAME = MotherView;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E94D6AB8269C733D005F3B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simagin.kirill.MotherView;
+				PRODUCT_NAME = MotherView;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E9AECD992695FD3300055254 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1188,6 +1448,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E94D6AB9269C733D005F3B79 /* Build configuration list for PBXNativeTarget "MotherView (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94D6AB5269C733D005F3B79 /* Debug */,
+				E94D6AB6269C733D005F3B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94D6ABA269C733D005F3B79 /* Build configuration list for PBXNativeTarget "MotherView (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94D6AB7269C733D005F3B79 /* Debug */,
+				E94D6AB8269C733D005F3B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E9AECD9D2695FD3300055254 /* Build configuration list for PBXNativeTarget "FoodDelivery (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -89,6 +89,7 @@ struct OrderForm: View {
                                         showOrderSheet = false
                                     }) {
                                         Text("Cancel")
+                                            .foregroundColor(.orange)
                                     })
             //            .navigationBarTitleDisplayMode(.inline)
         }

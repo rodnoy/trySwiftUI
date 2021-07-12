@@ -80,4 +80,25 @@ Of course, we have to pass the binded value of `showOrderSheet` to each view tha
 ### Aka Navigation style
 
 
+## Wrappers
+
+1. `@State` + `@Binding`
+2. `ObservableObject` `(@Published)` + `@StateObject`
+> In one sentence: Using an `ObservableObjects` observed by using `@StateObject` can become confusing when we work with more complex app hierarchies.
+
+3. `EnvironmentObject`: declaration the same as `ObservableObject` `(@Published)`, `@EnvironmentObject` should be used instead of `@StateObject` in exploiting views.
+
+> NB! **ObservableObject** should be a class
+
+## Buttons
+
+Buttons are not displayed correctly on MacOs target. To elude the problem, `PlainButtonStyle` should be applied.
+```swift
+Button(action: {
+                    print("💶")
+                }, label: {
+                    Text("Back")
+                })
+                .buttonStyle(PlainButtonStyle())
+```
 [^/dev/my/probe-zone/DemoApp]
