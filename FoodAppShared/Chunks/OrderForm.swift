@@ -24,7 +24,7 @@ struct OrderForm: View {
     
     // for slider
     @State var userFeedback = 0.0
-
+    
     var body: some View {
         Form{
             Section{
@@ -56,12 +56,25 @@ struct OrderForm: View {
                 TextField("ZIP code", text: $zip)
             }
             Section {
-                HStack {
-                    Image(systemName: "hand.thumbsdown")
-                    Slider(value: $userFeedback, in: 0.0...10.0)
-                    Image(systemName: "hand.thumbsup")
+                VStack {
+                    Text("How do you like our Food Delivery App?")
+                        .padding(.top, 10)
+                    Spacer()
+                    HStack {
+                        Image(systemName: "hand.thumbsdown")
+                        Slider(value: $userFeedback, in: 0.0...10.0)
+                        Image(systemName: "hand.thumbsup")
+                    }
+                    Text("your feedback: \(userFeedback , specifier: "%2.0f")")
                 }
-                Text("your feedback: \(userFeedback)")
+            }
+            
+            Section {
+                Button(action: {
+                    print("Order placed.")
+                }) {
+                    Text("Place Order")
+                }
             }
         }
         .navigationTitle("🛠")

@@ -15,3 +15,15 @@ Image(imageName)
 
 ```
 
+
+To format string with float or double value in it, use smth like  that :
+
+```swift
+Text("your feedback: \(userFeedback , specifier: "%2.0f")")
+```
+
+or
+
+```
+Text("\(food.price, specifier: "%2.2f") $")
+```
