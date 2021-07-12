@@ -9,11 +9,17 @@ import SwiftUI
 
 struct DetailView: View {
     let currentCategory: Categories
+    /// in order to show modal view
+    @State var showOrderSheet = false
+    
     var body: some View {
         List(filterData(foodDataSet: foodData, by: currentCategory)){ food in
-            DetailRow(food: food)
+            DetailRow(food: food, showOrderSheet: $showOrderSheet)
         }
         .navigationTitle(Text(categoryString(for: currentCategory)))
+        .sheet(isPresented: $showOrderSheet, content: {
+            OrderForm(showOrderSheet: $showOrderSheet)
+        })
         .listStyle(SidebarListStyle())
     }
 }

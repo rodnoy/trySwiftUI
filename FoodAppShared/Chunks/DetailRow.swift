@@ -9,6 +9,10 @@ import SwiftUI
 
 struct DetailRow: View {
     let food: Food
+    
+    /// to dismiss the modal v
+    @Binding var showOrderSheet: Bool
+    
     var body: some View {
         HStack {
             VStack(alignment: .leading){
@@ -20,6 +24,7 @@ struct DetailRow: View {
             }
             Spacer()
             Button(action:{
+                showOrderSheet.toggle()
                 print("order smth")
             }) {
                 VStack(spacing: 5) {
@@ -41,7 +46,7 @@ struct DetailRow: View {
 
 struct DetailRow_Previews: PreviewProvider {
     static var previews: some View {
-        DetailRow(food: foodData[0])
+        DetailRow(food: foodData[0], showOrderSheet: .constant(false))
             .previewLayout(.sizeThatFits)
     }
 }

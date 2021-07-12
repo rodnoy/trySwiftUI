@@ -27,3 +27,54 @@ or
 ```
 Text("\(food.price, specifier: "%2.2f") $")
 ```
+
+
+To reduce a space takes by Empty header in Section in Form construction, I've use a dummy header
+
+```swift
+(header: Color.clear
+                .frame(width: 0, height: 0)
+                .accessibilityHidden(true))
+``` 
+The example of the usage can be found in **OrderForm.swift** file.
+
+
+## Present views
+
+### Modally
+1. We need to open a **sheet** in **presenting** view, like that:
+
+```swift
+.sheet(isPresented: $showOrderSheet, content: {
+            OrderForm(showOrderSheet: $showOrderSheet)
+        })
+```
+
+2. We need to toggle **isPresented** binding value from somewhere (another view, or just a button in the same view...), i.e.
+
+```swift
+Button(action:{
+                showOrderSheet.toggle()
+                print("order smth")
+            }) {
+                    Text("ORDER")        
+                }
+```
+
+3. We can add a navigation button to the **presented** sheet from example 
+
+```swift
+NavigationView {
+            Form{...}
+            }
+            .navigationBarItems(leading:
+                                    Button(action: {
+                                        showOrderSheet = false
+                                    }) {
+                                        Text("Cancel")
+                                    })       
+```
+
+Of course, we have to pass the binded value of `showOrderSheet` to each view that modifies the one.
+
+### Aka Navigation style

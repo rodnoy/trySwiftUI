@@ -22,68 +22,82 @@ struct OrderForm: View {
     @State var city = ""
     @State var zip = ""
     
-    // for slider
+    /// for slider
     @State var userFeedback = 0.0
     
+    /// to dismiss manually
+    @Binding var showOrderSheet: Bool
     var body: some View {
-        Form{
-            Section{
-                Toggle(isOn: $specialRequest) {
-                    Image(systemName: specialRequest ? "heart.fill" : "heart")
-                        .foregroundColor(.orange)
-                    Text("Any special requests?")
-                }
-                .toggleStyle(SwitchToggleStyle(tint: .orange))
-                // Use your Toggle Style for your Toggle view
-                //            .toggleStyle(DefaultToggle(onColor: .blue, offColor: .white))
-                //            .toggleStyle(MyToggleStyle())
-                //            .toggleStyle(CheckboxStyle())
-                if specialRequest {
-                    TextField("Enter your request", text: $specialRequestInput)
-                }
-                
-                
-                Stepper(value: $orderAmount, in: 1...10) {
-                    Text("Quantity: \(orderAmount)")
-                }
-            }
-            
-            Section {
-                TextField("First name", text: $firstName)
-                TextField("Last name", text: $lastName)
-                TextField("Street", text: $street)
-                TextField("City", text: $city)
-                TextField("ZIP code", text: $zip)
-            }
-            Section {
-                VStack {
-                    Text("How do you like our Food Delivery App?")
-                        .padding(.top, 10)
-                    Spacer()
-                    HStack {
-                        Image(systemName: "hand.thumbsdown")
-                        Slider(value: $userFeedback, in: 0.0...10.0)
-                        Image(systemName: "hand.thumbsup")
+        NavigationView {
+            Form{
+                Section(header: Color.clear
+                            .frame(width: 0, height: 0)
+                            .accessibilityHidden(true)){
+                    Toggle(isOn: $specialRequest) {
+                        Image(systemName: specialRequest ? "heart.fill" : "heart")
+                            .foregroundColor(.orange)
+                        Text("Any special requests?")
                     }
-                    Text("your feedback: \(userFeedback , specifier: "%2.0f")")
+                    .toggleStyle(SwitchToggleStyle(tint: .orange))
+                    // Use your Toggle Style for your Toggle view
+                    //            .toggleStyle(DefaultToggle(onColor: .blue, offColor: .white))
+                    //            .toggleStyle(MyToggleStyle())
+                    //            .toggleStyle(CheckboxStyle())
+                    if specialRequest {
+                        TextField("Enter your request", text: $specialRequestInput)
+                    }
+                    
+                    
+                    Stepper(value: $orderAmount, in: 1...10) {
+                        Text("Quantity: \(orderAmount)")
+                    }
                 }
-            }
-            
-            Section {
-                Button(action: {
-                    print("Order placed.")
-                }) {
-                    Text("Place Order")
+                
+                Section {
+                    TextField("First name", text: $firstName)
+                    TextField("Last name", text: $lastName)
+                    TextField("Street", text: $street)
+                    TextField("City", text: $city)
+                    TextField("ZIP code", text: $zip)
                 }
+                Section {
+                    VStack {
+                        Text("How do you like our Food Delivery App?")
+                            .padding(.top, 10)
+                        Spacer()
+                        HStack {
+                            Image(systemName: "hand.thumbsdown")
+                            Slider(value: $userFeedback, in: 0.0...10.0)
+                            Image(systemName: "hand.thumbsup")
+                        }
+                        Text("your feedback: \(userFeedback , specifier: "%2.0f")")
+                    }
+                }
+                
+                Section {
+                    Button(action: {
+                        print("Order placed.")
+                    }) {
+                        Text("Place Order")
+                    }
+                }
+                
             }
+            .navigationTitle("🛠")
+            .navigationBarItems(leading:
+                                    Button(action: {
+                                        showOrderSheet = false
+                                    }) {
+                                        Text("Cancel")
+                                    })
+            //            .navigationBarTitleDisplayMode(.inline)
         }
-        .navigationTitle("🛠")
     }
 }
 
 struct OrderForm_Previews: PreviewProvider {
     static var previews: some View {
-        OrderForm()
+        OrderForm( showOrderSheet: .constant(false))
     }
 }
 /// Implementaion
